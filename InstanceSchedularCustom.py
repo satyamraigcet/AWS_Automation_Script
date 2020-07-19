@@ -31,7 +31,7 @@ client_log = boto3.client('logs')
 dynamodb = boto3.resource('dynamodb')
 
 # Instance Schedular log Group name
-LogGroupName= "INTANCE-logs"
+LogGroupName= "#########"
 	       
 def filterData(EC2_Stream,RDS_Stream):
     if(EC2_Stream):
